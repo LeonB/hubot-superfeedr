@@ -1,0 +1,28 @@
+{
+  "name": "hubot-superfeedr",
+  "version": "0.0.2",
+  "author": "Leon Bogaert <leonbogaert@gmail.com>",
+  "description": "Pushes realtime news from superfeedr to hubot",
+  "keywords": [
+    "github",
+    "hubot",
+    "script",
+    "superfeedr",
+    "rss",
+    "atom",
+    "news"
+  ],
+  "licenses" : [
+    {
+      "type" : "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonB/hubot-superfeedr.git"
+  },
+  "main": "./lib/superfeedr",
+  "dependencies": {
+    "superfeedr": "*"
+  }
+}
