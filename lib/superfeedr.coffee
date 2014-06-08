@@ -28,7 +28,7 @@ delay = (ms, func) -> setTimeout func, ms
 class HubotSuperfeedr
   client: null
   default_room: null
-  feeds: null # [] when initialized
+  feeds: []
   login: null
   password: null
   robot: null
@@ -102,7 +102,6 @@ class HubotSuperfeedr
     console.log("data: #{data}")
 
     for feed in data
-      @feeds = [] if not @feeds
       @feeds.push feed.url
 
     # Don't know if this scoping is right??
