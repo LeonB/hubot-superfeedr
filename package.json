@@ -23,6 +23,7 @@
   },
   "main": "./lib/superfeedr",
   "dependencies": {
-    "superfeedr": "*"
+    "superfeedr": "*",
+    "underscore": ">= 1.6.0"
   }
 }
